@@ -1,2 +1,2 @@
-# Laurea-Fullstack2025
+# Tämä on Laurean Fullstack 2025 -kansio.
 Workshop-repository for Fullstack course.
