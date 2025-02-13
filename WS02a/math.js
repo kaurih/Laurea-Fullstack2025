@@ -1,6 +1,2 @@
-// math.js
-function add(a, b) {
-    return a + b;
-  }
-  
-  module.exports = add;
+exports.add = (a, b) => a + b;
+exports.subtract = (a, b) => a - b;
