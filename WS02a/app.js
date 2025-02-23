@@ -2,6 +2,12 @@ const {add, subtract} = require("./math")
 const {upperCase} = require("./stringUtils")
 const {getCurrentDate} = require("./dateUtils")
 
+const createServer = require('./server');
+const port = 3000;
+
+const server = createServer(port);
+
+
 message = ("Hello, Node.js!");
 console.log(message);
 
