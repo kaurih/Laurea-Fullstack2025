@@ -1,1 +1,1 @@
-exports.uppercase = (string) => string.toUpperCase();
+exports.upperCase = (string) => string.toUpperCase();
