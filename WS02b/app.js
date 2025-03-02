@@ -13,3 +13,5 @@ axios.get(apiUrl)
     .catch(error => {
         console.error('Failed to GET skills:', error)
     });
+
+//skripti näyttäisi toimivan oikein!
