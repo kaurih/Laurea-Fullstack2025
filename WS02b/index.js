@@ -38,3 +38,27 @@ process.on('uncaughtException', err => {
     console.error(`Uncaught error: ${err}`);
     process.exit(1);
 })
+
+//Excercise 7 - Directories
+if (!fs.existsSync('./testDir')) {
+    fs.mkdir('./testDir', (err) =>{
+        if (err) throw err;
+        console.log('Directory created!')
+    })
+}
+
+if (fs.existsSync('./testDir')) {
+    fs.rmdir('./testDir', (err) =>{
+        if (err) throw err;
+        console.log('Directory removed!')
+    })
+}
+
+//Excercise 8 - Watching for file changes
+fs.watch(path.join(__dirname, 'watch.txt'), (eventType, filename) => {
+    if (filename) {
+        console.log(`${filename} file Changed: ${eventType}`);
+    }
+});
+
+console.log(`Watching for changes on ${path.join(__dirname, 'example.txt')}...`);
