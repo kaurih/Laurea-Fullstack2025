@@ -14,6 +14,12 @@ fs.writeFile(path.join(__dirname, 'output.txt'), 'Tämä teksti menee output.txt
     console.log('Write script completed.');
 })
 
+//append script
+fs.appendFile(path.join(__dirname, 'output.txt'), '\nLisää tekstiä!', (err) => {
+    if (err) throw err;
+    console.log('Output.txt has been modified.');
+})
+
 
 // exit on uncaught errors
 process.on('uncaughtException', err => {
