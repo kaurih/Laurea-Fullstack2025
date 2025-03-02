@@ -20,6 +20,18 @@ fs.appendFile(path.join(__dirname, 'output.txt'), '\nLisää tekstiä!', (err) =
     console.log('Output.txt has been modified.');
 })
 
+//delete script
+fs.unlink(path.join(__dirname, 'temp.txt'), (err, data) => {
+    if (err) {
+        if (err.code ==='ENOENT') {
+            console.log('Temp.txt does not exist.'); //if no temp file is found
+        } else {
+            console.error('Something went wrong:', err) //if there is some other error
+        }
+    } else {
+        console.log('Temp.txt deleted!');
+    }
+});
 
 // exit on uncaught errors
 process.on('uncaughtException', err => {
