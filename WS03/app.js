@@ -1,7 +1,17 @@
 const express = require('express');
 const server = express();
 const path = require('path');
-const port = 3000;
+const PORT = 3000 || process.env.PORT;
+const parser = require('body-parser');
+
+// setting up body-parser middleware for JSON
+server.use(parser.json());
+
+server.post('/submit', (req, res) => {
+    const requestBody= req.body;
+    console.log('requestBody'); // log the response to console
+    res.json(requestBody); // respond with recieved data
+});
 
 server.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -19,18 +29,4 @@ server.get('/services', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'services.html'));
 });
 
-/*
-server.get('/about', (req, res) => {
-    res.send('About page');
-});
-
-server.get('/contact', (req, res) => {
-    res.send('Contact page');
-});
-
-server.get('/services', (req, res) => {
-    res.send('Services page');
-});
-*/
-
-server.listen(port, () => console.log(`Server running on port ${port}`));
+server.listen(PORT, () => console.log(`Server running on PORT ${PORT}`));
