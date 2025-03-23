@@ -1,0 +1,32 @@
+[
+  {
+    "name": "John Doe",
+    "age": 30,
+    "city": "New York"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "city": "Los Angeles"
+  },
+  {
+    "name": "Sam Johnson",
+    "age": 40,
+    "city": "Chicago"
+  },
+  {
+    "name": "New User",
+    "age": 28,
+    "city": "San Francisco"
+  },
+  {
+    "name": "New User",
+    "age": 28,
+    "city": "San Francisco"
+  },
+  {
+    "name": "New User",
+    "age": 28,
+    "city": "San Francisco"
+  }
+]
