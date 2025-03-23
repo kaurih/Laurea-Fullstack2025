@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Data</title>
+</head>
+<body>
+  <h1>Submitted Data</h1>
+  <div id="data-container"></div>
+
+  <script>
+    // Function to fetch and display data
+    async function fetchData() {
+      try {
+        const response = await fetch('/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: new URLSearchParams({ key: 'value' }) // try this in postman!
+        });
+        const data = await response.json();
+        const container = document.getElementById('data-container');
+        container.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    }
+
+    // Fetch data when the page loads
+    fetchData();
+  </script>
+</body>
+</html>
