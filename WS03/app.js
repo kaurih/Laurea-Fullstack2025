@@ -4,24 +4,28 @@ const path = require('path');
 const PORT = 3000 || process.env.PORT;
 const parser = require('body-parser');
 
-// Body-parser middleware setup
-server.use(parser.urlencoded({extended:true}));
-server.use(express.static('public'));
 
 //Logging middleware
 function logRequest(req, res, next){
     console.log(`${req.method} ${req.url}`);
+    next();
+}
+
+function checkHeader(req, res, next){
     if (req.headers['x-custom-header']){
         next();
     } else {
         res.status(400).send('Error: Custom header is missing!');
     }    
-    
 }
 
-function checkHeader(req, res, next){
 
-}
+
+// Middleware set-up
+server.use(parser.urlencoded({extended:true}));
+server.use(express.static('public'));
+server.use(logRequest);
+server.use('/submit', checkHeader)
 
 //POST
 server.post('/submit', (req, res) => {
