@@ -1,5 +1,7 @@
 # Tehtäväpalautus WS02b
 ### Tehtävien 1-3 ratkaisu löytyy app.js tiedostosta.
+### Tehtävien 4-8 skriptit ovat yhdessä index.js tiedostossa, yksittäiset thetävät merkitty kommenteilla.
+
 ## Exercise 1
 Komento node app.js tulostaa konsoliin dataa ilmoisesta APIsta.
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex1.png)
