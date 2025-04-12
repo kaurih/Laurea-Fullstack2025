@@ -1,10 +1,20 @@
 # Tehtäväpalautus WS02b
+### Tehtävien 1-3 ratkaisu löytyy app.js tiedostosta.
 ## Exercise 1
-!(https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex1.png)
+Komento node app.js tulostaa konsoliin dataa ilmoisesta APIsta.
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex1.png)
 ## Exercise 2
+Nodemon asennettu onnistuneesti:
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex2a.png)
 
+npm start konfiguroitu käynnistämään serveri:
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex2b.png)
+
+npm käynnistää serverin uudelleen, kun muutoksia tehdään:
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex2c.png)
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex2d.png)
 ## Exercise 3
-
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex3a.png)
 ## Exercise 4-8
 ### Tehtävästä 4 eteenpäin skriptit on kirjoitettu index.js tiedostoon ja ne voi suorittaa yhtäaikaisesti sitä kutsumalla.
 ### Tehtäväratkaisut on myös kommentoitu index.js -tiedostoon tehtävänumerokohtaisesti.
