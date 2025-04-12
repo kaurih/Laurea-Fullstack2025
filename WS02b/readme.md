@@ -23,11 +23,11 @@ Tutkittu, löytyykö vanhentuneita paketteja - axios päivitetty:
 ### Tehtävästä 4 eteenpäin skriptit on kirjoitettu index.js tiedostoon ja ne voi suorittaa yhtäaikaisesti sitä kutsumalla.
 ### Tehtäväratkaisut on myös kommentoitu index.js -tiedostoon tehtävänumerokohtaisesti.
 
-Kuvassa alhaalla: WS02b-hakemisto ennen skriptien suoritusta.
-![Hakemistot ennen skriptin suoritusta](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories1.png)
+Kuvassa: WS02b-hakemisto ennen skriptien suoritusta.
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories1.png)
 
-Kuvassa alhaalla: Sama hakemisto index.js:än suorituksen jälkeen. Huomaa testDir, output.txt, sekä hävinnyt temp.txt.
-![Hakemistot skriptin suorituksen jälkeen, tässä tapauksessa tehtävän 7 hakemiston poistava skripti on kommentoitu pois, jotta testDir näkyy.](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories2.png)
+Kuvassa: Sama hakemisto index.js:än suorituksen jälkeen. Huomaa testDir, output.txt, sekä hävinnyt temp.txt.
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories2.png)
 
 Kuvakaappaus terminaalista kun index.js on suoritettu.
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/terminal2.png)
