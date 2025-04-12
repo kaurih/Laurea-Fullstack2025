@@ -30,4 +30,4 @@ Kuvassa: Sama hakemisto index.js:än suorituksen jälkeen. Huomaa testDir, outpu
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories2.png)
 
 Kuvakaappaus terminaalista kun index.js on suoritettu.
-![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/terminal2.png)
+![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/terminal3.png)
