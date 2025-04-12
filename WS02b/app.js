@@ -1,4 +1,4 @@
-// Excercise 1: kutsumalla node app.js, ohjelma tulostaa konsoliin responsen avoimesta APIsta.
+// Exercise 1: kutsumalla node app.js, ohjelma tulostaa konsoliin responsen avoimesta APIsta.
 // Monster Hunter World skill information from an open API
 
 const axios = require('axios');
@@ -16,3 +16,6 @@ axios.get(apiUrl)
     });
 
 //skripti näyttäisi toimivan oikein!
+
+// Exercise 2
+// restart attempt through nodemon - testattu, nodemon uudelleenkäynnistää app.js:än kun muutokset tiedostoon tallenettaan
