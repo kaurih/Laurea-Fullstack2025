@@ -1,4 +1,5 @@
-//Monster Hunter World skill information from an open API
+// Excercise 1: kutsumalla node app.js, ohjelma tulostaa konsoliin responsen avoimesta APIsta.
+// Monster Hunter World skill information from an open API
 
 const axios = require('axios');
 
