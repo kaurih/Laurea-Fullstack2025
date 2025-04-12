@@ -5,12 +5,8 @@
 
 ## Exercise 3
 
-## Exercise 4
-
-## Exercise 5
-
-## Exercise 6
-
-## Exercise 7
-
-## Exercise 8
+## Exercise 4-8
+### Tehtävästä 4 eteenpäin skriptit on kirjoitettu index.js tiedostoon ja ne voi suorittaa yhtäaikaisesti sitä kutsumalla.
+### Tehtäväratkaisut on myös kommentoitu index.js -tiedostoon tehtävänumerokohtaisesti.
+![Hakemistot ennen skriptin suoritusta]https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories1.png
+![Hakemistot skriptin suorituksen jälkeen, tässä tapauksessa tehtävän 7 hakemiston poistava skripti on kommentoitu pois, jotta testDir näkyy.]https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories2.png
