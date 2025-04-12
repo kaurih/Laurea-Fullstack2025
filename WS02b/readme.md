@@ -1,9 +1,9 @@
 # Tehtäväpalautus WS02b
 ### Tehtävien 1-3 ratkaisu löytyy app.js tiedostosta.
-### Tehtävien 4-8 skriptit ovat yhdessä index.js tiedostossa, yksittäiset thetävät merkitty kommenteilla.
+### Tehtävien 4-8 skriptit ovat yhdessä index.js tiedostossa, yksittäiset tehtävät merkitty kommenteilla.
 
 ## Exercise 1
-Komento node app.js tulostaa konsoliin dataa ilmoisesta APIsta.
+Komento node app.js tulostaa konsoliin dataa ilmaisesta APIsta.
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex1.png)
 ## Exercise 2
 Nodemon asennettu onnistuneesti:
