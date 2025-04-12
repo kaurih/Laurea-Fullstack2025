@@ -6,6 +6,7 @@ const filePath = path.join(__dirname, 'output.txt');
 // Näitä voi testata suorittamalla node index.js -komennon
 
 // Exercise 4: read script
+//lukee example.txt -tiedoston sisällön
 fs.readFile(path.join(__dirname, 'example.txt'), 'utf8', (err, data) => {
     if (err) throw err;
     console.log(data);
@@ -13,9 +14,9 @@ fs.readFile(path.join(__dirname, 'example.txt'), 'utf8', (err, data) => {
 
 
 
-// Exercise 5 - write text into output.txt, if it exists. Append additional text to file
+// Exercise 5 - kirjoittaa output.txt -tiedoston, jos sitä ei ole vielä olemassa. Lisää tekstiä tiedostoon.
 if (!fs.existsSync(filePath)) {
-    // Create and write to file
+    // Luo ja kirjoita tiedosto
     fs.writeFile(filePath, 'Tämä teksti menee output.txt -tiedostoon.', (err) => {
         if (err) throw err;
         console.log('Write script completed.');
@@ -52,6 +53,7 @@ process.on('uncaughtException', err => {
 })
 
 //Excercise 7 - Directories
+// Luo testDir-hakemiston
 if (!fs.existsSync('./testDir')) {
     fs.mkdir('./testDir', (err) =>{
         if (err) throw err;
@@ -60,7 +62,7 @@ if (!fs.existsSync('./testDir')) {
 }
 
 //Exercise 7 
-// This will remove testDir immediately after its creation when run.
+// Poistaa testDir-hakemiston.
 // kommentoi pois, jos haluat nähdä testDirin muuaallakin kuin vain kosolilokina
 
 if (fs.existsSync('./testDir')) {
@@ -72,6 +74,7 @@ if (fs.existsSync('./testDir')) {
 
 
 //Exercise 8 - Watching for file changes
+// kyttää watch.txt-tiedostoa ja ilmoittaa siitä konsolilokiin
 fs.watch(path.join(__dirname, 'watch.txt'), (eventType, filename) => {
     if (filename) {
         console.log(`${filename} has been modified!`);
