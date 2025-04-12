@@ -1,16 +1,16 @@
 # Tehtäväpalautus WS02b
-## Excercise 1
+## Exercise 1
 
-## Excercise 2
+## Exercise 2
 
-## Excercise 3
+## Exercise 3
 
-## Excercise 4
+## Exercise 4
 
-## Excercise 5
+## Exercise 5
 
-## Excercise 6
+## Exercise 6
 
-## Excercise 7
+## Exercise 7
 
-## Excercise 8
+## Exercise 8
