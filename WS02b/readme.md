@@ -13,3 +13,5 @@ Kuvassa alhaalla: WS02b-hakemisto ennen skriptien suoritusta.
 
 Kuvassa alhaalla: Sama hakemisto index.js:än suorituksen jälkeen. Huomaa testDir, output.txt, sekä hävinnyt temp.txt.
 ![Hakemistot skriptin suorituksen jälkeen, tässä tapauksessa tehtävän 7 hakemiston poistava skripti on kommentoitu pois, jotta testDir näkyy.](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories2.png)
+
+!()
