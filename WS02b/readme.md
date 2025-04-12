@@ -14,10 +14,13 @@ npm käynnistää serverin uudelleen, kun muutoksia tehdään:
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex2c.png)
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex2d.png)
 ## Exercise 3
+Tutkittu, löytyykö vanhentuneita paketteja - axios päivitetty:
 ![image](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/ex3a.png)
+
 ## Exercise 4-8
 ### Tehtävästä 4 eteenpäin skriptit on kirjoitettu index.js tiedostoon ja ne voi suorittaa yhtäaikaisesti sitä kutsumalla.
 ### Tehtäväratkaisut on myös kommentoitu index.js -tiedostoon tehtävänumerokohtaisesti.
+
 Kuvassa alhaalla: WS02b-hakemisto ennen skriptien suoritusta.
 ![Hakemistot ennen skriptin suoritusta](https://github.com/kaurih/Laurea-Fullstack2025/blob/main/WS02b/images/directories1.png)
 
