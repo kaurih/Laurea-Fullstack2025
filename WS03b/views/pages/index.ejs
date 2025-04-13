@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <!-- Exercise 3: Header partial -->
     <header><%- include('../partials/_header/'); %></header>
     
@@ -17,7 +18,7 @@
     <!-- Exercise 1: simple message -->
     <p><%= message %><p>
 
-
+    <div class="flex-container">
     <div class="ingredients">
         <!-- Exercise 2: list of items -->
         <ul>
@@ -27,6 +28,20 @@
         </ul>
     </div>
 
+    <!-- Exercise 5: lista leipureista -->
+    <div class="bakers">
+        <h2>Leipurit</h2>
+        <ul>
+            <% bakers.forEach(function(baker) { %>
+                <li>
+                    <strong>ID:</strong> <%= baker.id %><br>
+                    <strong>Nimi:</strong> <%= baker.name %><br>
+                    <strong>Suosikkikakkumaku:</strong> <%= baker.favoriteFlavor %>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+</div>
 
     <!-- Exercise 4: kakkunappi, klikkaa nähdäksesi kakun-->
     <button id="cakeButton" class="navbutton">Näytä kakku</button>

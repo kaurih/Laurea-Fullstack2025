@@ -15,7 +15,14 @@ router.get('/', (req, res) => {
         // Exercise 4: lisätään nappi, jotta voidaan näyttää sislätöä valikoivasti napin painalluksella
         // näytetään kakun kuva, jos painettu
         showImage: false, // piilota aluksi
-        imageUrl:'/images/cake.jpg'
+        imageUrl:'/images/cake.jpg',
+        
+        // Exercise 5: lisätään taulukko, tässä tapauksessa vaikka leipurit:
+        bakers: [
+            {id: 1, name: 'Milla', favoriteFlavor: 'vanilja'},
+            {id: 2, name: 'Marko', favoriteFlavor: 'suklaa'},
+            {id: 3, name: 'Anna', favoriteFlavor: 'toffee'}
+        ]
 
 
     });
