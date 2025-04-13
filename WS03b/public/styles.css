@@ -8,6 +8,36 @@
     text-align: center;
 }
 
+.headerstyle h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 2em; /* Adjust font size */
+    color: inherit; /* Inherit color from .headerstyle */
+    font-weight: inherit; /* Inherit font weight from .headerstyle */
+}
+
+/* Navigation Button Style */
+.navbutton {
+    background-color: #ADD8E6; /* Light blue color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for better click area */
+    color: #333; /* Dark grey text color */
+    font-family: serif; /* Serif font */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbutton:hover {
+    background-color: #87CEFA; /* Slightly darker blue on hover */
+}
+
+.navbutton a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit color from .navbutton */
+}
+
 /* Footer Style */
 .footerstyle {
     font-family: sans-serif;

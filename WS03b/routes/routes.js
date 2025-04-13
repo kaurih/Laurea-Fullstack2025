@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', (req, res) => {
     res.render('pages/index', {
         title: 'EJS-harjoittelua', 
-        message: 'Kakkuainekset',
+        message: 'Mmm, kakkua...',
 
         //Exercise 2: a list of items
         items: ['maitoa', 'munia', 'jauhoja', 'sokeria']
