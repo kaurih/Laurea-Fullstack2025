@@ -10,7 +10,14 @@ router.get('/', (req, res) => {
         message: 'Mmm, kakkua...',
 
         //Exercise 2: a list of items
-        items: ['maitoa', 'munia', 'jauhoja', 'sokeria']
+        items: ['maitoa', 'munia', 'jauhoja', 'sokeria'],
+
+        // Exercise 4: lisätään nappi, jotta voidaan näyttää sislätöä valikoivasti napin painalluksella
+        // näytetään kakun kuva, jos painettu
+        showImage: false, // piilota aluksi
+        imageUrl:'/images/cake.jpg'
+
+
     });
 });
 
