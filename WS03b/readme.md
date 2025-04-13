@@ -1,5 +1,5 @@
 # Tehtäväpalautus WS03b ESJ
-Ratkaisut löytyvät index.esj- ja routes.js-tiedostoista. Tarkemmat speksit alla.
+Ratkaisut löytyvät index.ejs- ja routes.js-tiedostoista. Tarkemmat speksit alla.
 
 ## Exercise 1:
 Löytyy osiosta app.js, routes/routes.js, views/pages/index.ejs
